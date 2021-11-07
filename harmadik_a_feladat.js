@@ -10,7 +10,7 @@ let feri = 12;
 let geza = feri - 5;
 let mate = Math.floor(Math.random() * 20)+10;
 let max_pont= 20;
-let feri_percent = (100 / max_pont) * 12;
+let feri_percent = (100 / max_pont) * feri;
 let geza_percent = (100 / max_pont) * geza;
 let mate_percent = (100 / max_pont) * mate;
 
